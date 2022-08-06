@@ -18,14 +18,14 @@
                     <p>heling</p>
                 </div>
                 <ul class="nav-links">
-                    <li><a href="#" class="active">home</a></li>
-                    <li><a href="#">projects</a></li>
-                    <li><a href="#">designers</a></li>
-                    <li><a href="#">articles</a></li>
+                    <li><a href="#home" class="active">home</a></li>
+                    <li><a href="#projects">projects</a></li>
+                    <li><a href="#designers">designers</a></li>
+                    <li><a href="#blogs">articles</a></li>
                 </ul>
                 <div class="nav-touch">
                     <div class="contact">
-                        <a href="#">contact</a>
+                        <a href="mailto:phenopreneur@outlook.com">contact</a>
                     </div>
                     <button class="btn nav_toggle">
                         <div class="bar short"></div>
@@ -40,7 +40,7 @@
         <div class="container">
             <div class="container1">
 
-                <section class="home-img">
+                <section class="home-img" id="home">
                     <img src="/images/brown7.jpg" class="big-cone" alt="">
                     <img src="/images/brown12.jpg" class="small-cone" alt="" id="tinyimg">
                 </section>
@@ -53,7 +53,7 @@
                 </section>
             </div>
             <div class="container2">
-                <div class="story">
+                <div class="story" id="stories">
                     <section class="stories-head">
                         <h4 class="tophead">
                             Our <br>remember- <br>able stories
@@ -77,7 +77,7 @@
 
                 </div>
                 <div class="divider"></div>
-                <div class="projects">
+                <div class="projects" id="projects">
                     <h4 class="tophead">Our latest <br> projects</h4>
                     <a href="#" class="more-links">all projects</a>
                 </div>
@@ -87,12 +87,16 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <img src="/images/brown4.jpg" alt="">
+                        <img src="/images/brown4.jpg" alt="">
+                        <img src="/images/brown4.jpg" alt="">
                         <div class="overlay">
                             <p>Student bedroom</p>
                             <a href="#">view details</a>
                         </div>
                     </div>
                     <div class="swiper-slide">
+                        <img src="/images/brown5.jpg" alt="">
+                        <img src="/images/brown5.jpg" alt="">
                         <img src="/images/brown5.jpg" alt="">
                         <div class="overlay">
                             <p>Duplexs</p>
@@ -101,12 +105,16 @@
                     </div>
                     <div class="swiper-slide">
                         <img src="/images/brown8.jpg" alt="">
+                        <img src="/images/brown8.jpg" alt="">
+                        <img src="/images/brown8.jpg" alt="">
                         <div class="overlay">
                             <p>Teacher's rooms</p>
                             <a href="#">view details</a>
                         </div>
                     </div>
                     <div class="swiper-slide">
+                        <img src="/images/brown1.jpg" alt="">
+                        <img src="/images/brown1.jpg" alt="">
                         <img src="/images/brown1.jpg" alt="">
                         <div class="overlay">
                             <p>New skyscrapers</p>
@@ -118,7 +126,7 @@
             </div>
 
             <div class="container4">
-                <div class="designer-text">
+                <div class="designer-text" id="designers">
                     <h4 class="tophead">Our designers</h4>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur dicta quia necessitatibus sit! Perspiciatis reprehenderit officiis mollitia omnis quos ipsa nobis provident debitis delectus ea.</p>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente quas numquam earum eos, nobis vero qui at cum suscipit, reprehenderit dignissimos nihil. Voluptatem nemo placeat dignissimos numquam nisi nihil quae rerum veritatis
@@ -132,7 +140,7 @@
                 </div>
             </div>
             <div class="container2">
-                <div class="articles">
+                <div class="articles" id="blogs">
                     <h4 class="tophead">Our latest articles</h4>
                     <a href="#" class="more-links">read all articles</a>
                 </div>
@@ -198,8 +206,9 @@
             </div>
         </div>
     </footer>
+    <script src="/js/swiper-bundle.min.js"></script>
+    <script src="/js/app.js"></script>
+
 </body>
-<script src="/js/swiper-bundle.min.js"></script>
-<script src="/js/app.js"></script>
 
 </html>

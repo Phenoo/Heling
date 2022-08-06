@@ -1,12 +1,12 @@
-navlinks = document.querySelector('.nav-links');
-btn = document.querySelector('.nav_toggle');
+const navlinks = document.querySelector('.nav-links');
+const btn = document.querySelector('.nav_toggle');
 
 
+btn.addEventListener("click", ClickBtn)
 
-btn.addEventListener("click", function() {
-    navlinks.classList.toggle(".showlinks");
-});
-
+function ClickBtn() {
+    navlinks.classList.toggle('showlinks')
+};
 
 var swiper = new Swiper(".project-swiper", {
     slidesPerView: 1,
