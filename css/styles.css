@@ -304,9 +304,6 @@ p {
     text-align: right;
     right: 10px;
     width: auto;
-    /*  top: 2px;
-    margin-top: var(--rem1);
-    padding: var(--rem1); */
 }
 
 .project-swiper .swiper-pagination-bullet {
@@ -572,7 +569,7 @@ footer {
         margin-top: -4rem;
     }
     .big-cone {
-        width: 90%;
+        width: 100%;
         height: 450px;
         margin: 0 auto;
     }
