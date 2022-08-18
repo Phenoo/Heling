@@ -2,7 +2,7 @@
 :root {
     /* FONTS */
     --logofont: 'Sacramento', curvise;
-    --roman: 'Roboto';
+    --roman: 'Times New Roman';
     --calibri: 'Poppins', ;
     /* COLORS */
     --buff-color: #daa06d;
@@ -94,6 +94,7 @@ p {
         height: 0;
         overflow: hidden;
         background-color: black;
+        transition: all ease-in-out .4s;
     }
     .nav-links a {
         font-size: var(--rem2);
@@ -444,6 +445,7 @@ footer {
 
 .foot-one .links li {
     font-size: 1.1rem;
+    margin-bottom: 0.8rem;
 }
 
 .foot-one .links span {
@@ -572,6 +574,7 @@ footer {
     .big-cone {
         width: 90%;
         height: 450px;
+        margin: 0 auto;
     }
     .more-links,
     .overlay a {
@@ -619,6 +622,7 @@ footer {
     }
     .container1 .big-cone {
         width: 90%;
+        margin: 0 auto;
     }
     .container1 p,
     .container2 p,
